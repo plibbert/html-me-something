@@ -1,0 +1,69 @@
+body {
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 250)
+}
+header{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    font-size: 1.25em 
+}
+#concerts {
+    border-collapse: collapse;
+    width: 100%;
+}
+#concerts td, #concerts th {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#concerts td {
+    padding: 4px;
+    text-align: center;
+}
+#concerts tr:nth-child(odd){background-color: #c7c7c7;}
+
+#concerts th {
+    text-align: center;
+    background-color: #c7c7c7;
+    color: rgba(11, 97, 33, 0.863);
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.875em;
+    color: rgba(11, 97, 33, 0.863) 
+}
+
+#FavsPhoto{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+h3.favoriteConcerts {
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5em;
+    color: goldenrod
+}
+
+h5.date {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(53, 53, 53)
+}
+#more_pics {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 25px;
+}
